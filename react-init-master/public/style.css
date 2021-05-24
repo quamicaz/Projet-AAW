@@ -1,0 +1,94 @@
+*{  
+    background-color: rgb(236, 242, 236);
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+div nav{
+    margin-bottom: 4em;
+    margin-top: 2em;
+    width: 100%;
+}
+
+div nav ul li{
+    display: inline-block;
+    margin-left: 4em;
+    margin-top: 1em;
+}
+
+div nav ul li a{
+    font-size: 1.7em; 
+    transition: 0.4s;
+    background-color: black;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: black;
+    color: white;
+}
+
+div nav ul li a:hover{
+    padding: 0.2em;
+}
+
+div p{
+    margin-left: 25%;
+    width: max-content;
+    background-color: rgb(185, 185, 255); 
+    border-color: rgb(185, 185, 255); 
+    border-radius: 0.3em;
+    font-size: 2em;
+    color: rgb(88, 47, 47);
+}
+
+section{
+    font-size: 1.5em;
+    width: 50%;
+    margin-left: 24%;
+    border-radius: 1em;
+    border-style: solid;
+    border-width: 0.3em;
+}
+
+section div{
+    border-radius: 1em;
+}
+
+section div label{
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+}
+
+section div input{
+    display: block;
+    width: 90%;
+    margin-left: 2%;
+    border-radius: 0.4em;
+    border-style: solid;
+    font-size: 0.7em;
+}
+
+section button{
+    transition: 0.8s;
+    width: 50%;
+    margin-left: 24%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 3em;
+    border-radius: 0.7em;
+    border-style: solid;
+    border-color: black;
+    font-size: 0.7em;
+}
+
+section button:hover{
+    border-radius: 3em;
+    background-color: black;
+    color: rgb(236, 242, 236);
+}
