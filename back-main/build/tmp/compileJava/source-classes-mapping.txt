@@ -1,0 +1,8 @@
+com/example/restservice/UserInfo.java
+ com.example.restservice.UserInfo
+com/example/restservice/Utils.java
+ com.example.restservice.Utils
+com/example/restservice/RestServiceApplication.java
+ com.example.restservice.RestServiceApplication
+com/example/restservice/UserController.java
+ com.example.restservice.UserController
