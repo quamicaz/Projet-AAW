@@ -2,7 +2,7 @@ import React from "react";
 
 function About(){
     return (
-        <p>About us</p>
+        <p>Created by Rondonnet Guillaume et Cantonny Thomas</p>
     );
 }
 
