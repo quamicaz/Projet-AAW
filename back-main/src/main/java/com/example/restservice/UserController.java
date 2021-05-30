@@ -41,4 +41,22 @@ public class UserController {
             this.token = "";
             return ResponseEntity.ok(null);
         }
+        
+        public ResponseEntity findByLogin(@RequestParam String givenName, @RequestParam String givenPassword){
+            String name  = "SELECT name FROM \"public\".\"USER\" u WHERE u.name = '"+givenName+"';";
+            String password = "SELECT password FROM \"public\".\"USER\" u WHERE u.password = '"+givenPassword+"';";
+            
+            
+            
+            if (!password.equals(password) || !USER_NAME.equals(name)){
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
+            }
+            try{
+                token = Utils.generateRandomToken(TOKEN_LENGHT);
+            }
+            catch(Exception e){
+                token = "error";
+            }
+            return ResponseEntity.ok(new UserInfo(token, USER_NAME));
+        }
 }
